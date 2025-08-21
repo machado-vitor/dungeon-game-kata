@@ -1,4 +1,7 @@
 spring:
+  config:
+    activate:
+      on-profile: chaos-monkey
   application:
     name: dungeon-game-kata
   datasource:
@@ -13,3 +16,12 @@ spring:
       continue-on-error: true
 server:
   port: 8080
+
+chaos:
+  monkey:
+    enabled: true
+
+logging:
+  level:
+    de.codecentric.spring.boot.chaos.monkey: DEBUG
+    org.springframework.boot.autoconfigure: DEBUG
