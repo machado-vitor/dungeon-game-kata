@@ -16,9 +16,16 @@ The application runs with high availability setup:
 - **PostgreSQL Database** - Persistent storage for solved dungeons
 - **Frontend UI** - React-based dungeon visualizer
 
+## Steps of Chaos Engineering
+
+1. Start by defining ‘steady state’ as some measurable output of a system that indicates normal behavior.
+2. Hypothesize that this steady state will continue in both the control group and the experimental group.
+3. Introduce variables that reflect real world events like servers that crash, hard drives that malfunction, network connections that are severed, etc.
+4. Try to disprove the hypothesis by looking for a difference in steady state between the control group and the experimental group.
+
 ## Chaos toolkit flow Diagram
 
-![Chaos toolkit flow](Chaos%toolkit.png)
+![Chaos toolkit flow](Chaos_toolkit.png)
 
 ## Architecture Diagram
 
