@@ -16,6 +16,10 @@ The application runs with high availability setup:
 - **PostgreSQL Database** - Persistent storage for solved dungeons
 - **Frontend UI** - React-based dungeon visualizer
 
+## Chaos toolkit flow Diagram
+
+![Chaos toolkit flow](Chaos%toolkit.png)
+
 ## Architecture Diagram
 
 ![Testing Diagram](Testing%20diagram.png)
