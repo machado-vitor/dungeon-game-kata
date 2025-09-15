@@ -39,6 +39,10 @@ This diagram shows the overall architecture and highlights how each chaos testin
 
 ![Chaos toolkit flow](Chaos_toolkit.png)
 
+## Gatling Dashboard
+
+![Gatling](gatling-benchmarks/gatling/image.png)
+
 ## Swagger UI
 
 `http://localhost:80/swagger-ui.html`
